@@ -8,6 +8,7 @@ public class Lab2Q6 {
         System.out.print("Enter inputs a & r: ");
         int a = sc.nextInt();
         int r = sc.nextInt();
+        sc.close();
         printGeomatricProgression(n,a,r);
     }
 
