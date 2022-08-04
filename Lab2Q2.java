@@ -14,7 +14,7 @@ public class Lab2Q2 {
         System.out.print("Enter the Arbitary points cordinates: ");
         int x = sc.nextInt();
         int y = sc.nextInt();
-
+        sc.close();
         double dist = Math.sqrt((x - x0) * (x - x0) + (y - y0) * (y - y0));
 
         if (dist <= radius) {
@@ -22,5 +22,6 @@ public class Lab2Q2 {
         } else {
             System.out.println("Point is outside the circle.");
         }
+
     }
 }
