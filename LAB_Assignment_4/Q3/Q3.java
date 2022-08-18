@@ -4,6 +4,7 @@ import LAB_Assignment_4.Q1.*;
 
 public class Q3 {
     public static void main(String[] args) {
+
         // create an object of PublicBus class
         PublicBus publicBus = new PublicBus("WB74A0007", "Tesla", 55, "Mr Musk", "Delhi", "London", "10:00", "20:00");
         // super sonstructor will call the constructor of Bus class so basically two
