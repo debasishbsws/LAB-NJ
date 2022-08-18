@@ -43,8 +43,9 @@ public class Lab3Q2 {
                     System.out.println("Invalid choice");
                     break;
             }
-
+            sc.close();
         }
+
     }
 
 }
