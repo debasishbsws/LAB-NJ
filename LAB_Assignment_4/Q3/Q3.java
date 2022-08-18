@@ -11,11 +11,11 @@ public class Q3 {
         // object is being created here
         /*
          * publicBus = {
-         * Bus = {
-         * regdNo = "WB74A0007",
-         * model = "Tesla",
-         * capacity = 55
-         * },
+         * ....Bus = {
+         * ....regdNo = "WB74A0007",
+         * ....model = "Tesla",
+         * ....capacity = 55
+         * ....},
          * owner = "Mr Musk",
          * from = "Delhi",
          * to = "London",
