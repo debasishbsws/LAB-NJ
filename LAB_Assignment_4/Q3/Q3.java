@@ -23,16 +23,19 @@ public class Q3 {
          * arrivalTime = "20:00"
          * }
          */
-        publicBus.showBusDetails();
 
         // reference of Bus class pointing to object of LuxuryPublicBus class
-        Bus bus = new LuxuryPublicBus("WB74A0008", "Tesla", 55, "Mr Musk", "Delhi", "London", "10:00", "20:00", true,
-                false,
+        Bus bus = new LuxuryPublicBus("WB73A8080", "TATA", 60, "Mr Tata", "Kolkata", "Mumbai", "09:00", "23:00", true,
+                true,
                 10);
         // super sonstructor will call the constructor of Bus class also
-        // but as the reference is of Bus class so only the members of Bus class will be
-        // accessible
-
+        // As Bus type reference is pointing to object of LuxuryPublicBus class
+        // method showBusDetails() of LuxuryPublicBus class will be called
+        bus.showBusDetails();
+        System.out.println("-------------------------------");
+        bus = publicBus;
+        // As Bus type reference is pointing to object of PublicBus class
+        // method showBusDetails() of PublicBus class will be called now
         bus.showBusDetails();
     }
 }
