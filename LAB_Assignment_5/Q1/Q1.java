@@ -8,7 +8,7 @@ public class Q1 {
 
         // Interrupted Exception
         try {
-            Thread.sleep(1000);
+            throw new InterruptedException("Interrupted Occured");
         } catch (InterruptedException interExp) {
             System.out.println(interExp);
         }
@@ -16,7 +16,7 @@ public class Q1 {
         Scanner sc = new Scanner(System.in);
         int size;
 
-        // Array out of bound exception
+        // Array index out of bound exception
         int arr[] = new int[5];
         try {
             int index;
@@ -30,14 +30,12 @@ public class Q1 {
             System.out.println(arrExp);
         }
 
-        // negative Array size exception
+        // Illegal ArgumentException
         try {
-            System.out.println("Enter the size of the Array");
-            size = sc.nextInt();
-            int arr1[] = new int[size];
-            System.out.println("Array is: " + Arrays.toString(arr1));
-        } catch (NegativeArraySizeException negSize) {
-            System.out.println(negSize);
+            throw new IllegalArgumentException(
+                    "Passed Illegal Argument to the function");
+        } catch (IllegalArgumentException illegalExp) {
+            System.out.println(illegalExp);
         }
 
         // IndexOut of bound exception
@@ -56,12 +54,14 @@ public class Q1 {
             System.out.println(indexOutExp);
         }
 
-        // Illegal ArgumentException
+        // negative Array size exception
         try {
-            throw new IllegalArgumentException(
-                    "Passed Illegal Argument to the function");
-        } catch (IllegalArgumentException illegalExp) {
-            System.out.println(illegalExp);
+            System.out.println("Enter the size of the Array");
+            size = sc.nextInt();
+            int arr1[] = new int[size];
+            System.out.println("Array is: " + Arrays.toString(arr1));
+        } catch (NegativeArraySizeException negSize) {
+            System.out.println(negSize);
         }
 
         // Null Pointer Exception
