@@ -11,10 +11,16 @@ public class Q2 {
         b = sc.nextFloat();
         sc.close();
         try {
-            if ((double) a / b < 0.00001) {
+            if (b == 0) {
+                throw new ArithmeticException("Divide by zero");
+            } else if ((double) a / b < 0.00001) {
                 throw new UserVerySmallNumException();
+            } else {
+                System.out.println("Result: " + (a / b));
             }
         } catch (UserVerySmallNumException e) {
+            System.out.println(e);
+        } catch (ArithmeticException e) {
             System.out.println(e);
         }
     }
