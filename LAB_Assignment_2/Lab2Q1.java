@@ -1,3 +1,4 @@
+
 import java.util.*;
 
 public class Lab2Q1 {
