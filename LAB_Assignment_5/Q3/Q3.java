@@ -7,7 +7,7 @@ public class Q3 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the String: ");
         String s = sc.next();
-
+        sc.close();
         try {
             for (int i = 0; i < s.length(); i++) {
                 if (Character.isDigit(s.charAt(i))) {
