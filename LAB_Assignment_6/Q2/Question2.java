@@ -1,7 +1,7 @@
-package LAB_Assignment_6;
+package LAB_Assignment_6.Q2;
 
-import LAB_Assignment_6.coordinates.Cartesian;
-import LAB_Assignment_6.coordinates.Polar;
+import LAB_Assignment_6.Q2.coordinates.Cartesian;
+import LAB_Assignment_6.Q2.coordinates.Polar;
 
 public class Question2 {
 

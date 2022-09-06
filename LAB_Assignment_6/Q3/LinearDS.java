@@ -1,4 +1,4 @@
-package LAB_Assignment_6;
+package LAB_Assignment_6.Q3;
 
 public interface LinearDS {
 

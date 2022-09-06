@@ -1,9 +1,9 @@
-package LAB_Assignment_6;
+package LAB_Assignment_6.Q1;
 
-import LAB_Assignment_6.geoshapes.Circle;
-import LAB_Assignment_6.geoshapes.Rectangle;
-import LAB_Assignment_6.geoshapes.Sphere;
-import LAB_Assignment_6.geoshapes.Triangle;
+import LAB_Assignment_6.Q1.geoshapes.Circle;
+import LAB_Assignment_6.Q1.geoshapes.Rectangle;
+import LAB_Assignment_6.Q1.geoshapes.Sphere;
+import LAB_Assignment_6.Q1.geoshapes.Triangle;
 
 public class Question1 {
 

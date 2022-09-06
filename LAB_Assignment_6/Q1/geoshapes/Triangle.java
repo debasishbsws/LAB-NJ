@@ -1,4 +1,4 @@
-package LAB_Assignment_6.geoshapes;
+package LAB_Assignment_6.Q1.geoshapes;
 
 import java.lang.Math;
 
@@ -17,7 +17,7 @@ public class Triangle {
     }
 
     // function to check if the triangle is valid or not
-    public boolean isValid(int a, int b, int c) {
+    public boolean isValid(double a, double b, double c) {
         if (a + b <= c || a + c <= b || b + c <= a)
             return false;
         else

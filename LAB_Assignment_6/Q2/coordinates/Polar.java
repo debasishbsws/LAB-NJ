@@ -1,4 +1,4 @@
-package LAB_Assignment_6.coordinates;
+package LAB_Assignment_6.Q2.coordinates;
 
 public class Polar {
 

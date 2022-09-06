@@ -1,4 +1,4 @@
-package LAB_Assignment_6.geoshapes;
+package LAB_Assignment_6.Q1.geoshapes;
 
 public class Rectangle {
 
