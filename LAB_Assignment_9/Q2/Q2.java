@@ -3,7 +3,6 @@ package LAB_Assignment_9.Q2;
 import java.util.*;
 
 // HashMap DATABASE
-
 // Use  HashMap to implement ligin ID ans password database.
 
 public class Q2 {
