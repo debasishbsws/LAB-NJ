@@ -1,9 +1,11 @@
-import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-// java swing to display 3 buttons and on clicking each button display a
-// greeting "goodmorning", "goodafternoon", "goodevening"
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.SwingUtilities;
 
 public class Greeting extends JFrame implements ActionListener {
 

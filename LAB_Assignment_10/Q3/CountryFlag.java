@@ -1,10 +1,12 @@
-import javax.swing.JFrame;
-
-import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-//java swing to display a 3 button with e country name and on click shows flag of that country
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.SwingUtilities;
 
 public class CountryFlag extends JFrame implements ActionListener {
 
@@ -51,13 +53,15 @@ public class CountryFlag extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == jButton1) {
-            imageIcon = new ImageIcon("C:\\Users\\HP\\Desktop\\Java\\LAB_Assignment_10\\Q3\\india.png");
+            imageIcon = new ImageIcon("C:\\Users\\debasish\\Desktop\\Java\\LAB_Assignment_10\\Q3\\india.png"); // path
+                                                                                                               // to
+                                                                                                               // image
             jLabel.setIcon(imageIcon);
         } else if (e.getSource() == jButton2) {
-            imageIcon = new ImageIcon("C:\\Users\\HP\\Desktop\\Java\\LAB_Assignment_10\\Q3\\usa.png");
+            imageIcon = new ImageIcon("C:\\Users\\debasish\\Desktop\\Java\\LAB_Assignment_10\\Q3\\usa.png");
             jLabel.setIcon(imageIcon);
         } else if (e.getSource() == jButton3) {
-            imageIcon = new ImageIcon("C:\\Users\\HP\\Desktop\\Java\\LAB_Assignment_10\\Q3\\uk.png");
+            imageIcon = new ImageIcon("C:\\Users\\debasish\\Desktop\\Java\\LAB_Assignment_10\\Q3\\uk.png");
             jLabel.setIcon(imageIcon);
         }
     }
